@@ -20,6 +20,9 @@ Because the files are publicly available for download on
 the Startek website, the author is assuming it's OK to
 download them using this program.
 
+Very little error handling is in the program because it just
+wasn't necessary.
+
 # Assumptions
 
 The files will be downloaded to your `~/Downloads/mercedes` folder. You can change
