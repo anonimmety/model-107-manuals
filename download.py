@@ -58,7 +58,7 @@ if __name__ == "__main__":
             pass
         
         # download the file
-        url = "{}{}".format(base, href)
+        url = "{}/{}".format(base, href.lstrip("/"))
         logging.info("Downloading {}".format(url))
         r = requests.get(url, allow_redirects=True)
         # save it locally
