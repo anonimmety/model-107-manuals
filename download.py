@@ -8,7 +8,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-base = "https://www.startekinfo.com/StarTek/outside/11883/PROGRAM"
+base = "https://www.startekinfo.com/service/download-document/outside/11883/PROGRAM"
 start = "88560sl.html"
 local_home = str(Path.home())
 local_root = os.path.join(
